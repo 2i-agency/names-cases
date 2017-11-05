@@ -1,0 +1,21 @@
+{
+	"name": "chunker/names-cases",
+	"type": "library",
+	"description": "Склоняемые имена",
+	"authors": [
+		{
+			"name": "Studio 2i",
+			"email": "mail@studio2i.ru",
+			"homepage": "http://studio2i.ru",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"yadelivery/name-case-lib": "~1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Chunker\\NamesCases\\": "src"
+		}
+	}
+}
