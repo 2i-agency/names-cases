@@ -7,12 +7,12 @@ use NCL\NCLNameCaseRu;
 /**
  * Класс склоняемого имени
  *
- * Class Name
+ * Class CasableName
  * @package Chunker\NamesCases
  * @property NCLNameCaseRu $wizard
  * @property string        $format
  */
-class Name implements CasesInterface
+class CasableName implements CasesInterface
 {
 	/** @var NCLNameCaseRu */
 	protected $wizard;
